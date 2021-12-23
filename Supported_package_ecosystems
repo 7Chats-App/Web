@@ -1,0 +1,46 @@
+// Welcome to 7Chats graph centr 
+web iOS andriod tablet and mobile
+
+The recommended formats explicitly define which versions are used for all direct and all 
+indirect dependencies. If you use these formats, your dependency graph is more accurate. 
+It also reflects the current build set up and enables the dependency graph to report 
+vulnerabilities in both direct and indirect dependencies. Indirect dependencies that 
+are inferred from a manifest file (or equivalent) 
+are excluded from the checks for vulnerable dependencies.
+
+**Package manager	Languages	Recommended formats	All supported 
+formats**
+
+**Composer	PHP	    composer.lock	          composer.json,
+                                            composer.lock**
+                               
+ 
+ 
+ dotnet  .NET           .csproj, .vbproj,	   .csproj, .vbproj,
+ CLI.    languages      .nuspec, .vcxproj,   .nuspec, .vcxproj,
+         C#, C++, F#,   .fsproj              .fsproj
+         VB).                                 packages.config
+         
+ Go      modules	Go	   go.sum	              go.mod, go.sum   
+ 
+ Maven	 Java, Scala	   pom.xml	            pom.xml
+ npm	   JavaScript	     package-lock.json	  package-lock.json, 
+                                              package.json
+                                              
+ Python PIP	Python	     requirements.txt      requirements.txt,                                           
+                         pipfile.lock.         pipfile, pipfile.lock,
+                         Poetry                setup.py*
+                                               
+ Python   Python        poetry.lock.           poetry.lock
+                                               pyproject.toml
+                                                
+                                                
+                                                
+RubyGems	Ruby	      Gemfile.lock             Gemfile.lock, Gemfile,
+                                               *.gemspec   
+                                               
+                                                
+Yarn	 JavaScript	    yarn.lock	               package.json, yarn.lock                                                
+                                                
+                                                
+                                                                      
